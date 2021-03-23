@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class TodoDTO {
 
-	String title;
-	String content;
-	String selected_date;
-	boolean completed;
+	String title;			// 제목
+	String content;			// 내용
+	String selected_date;	// 선택일자
+	boolean completed;		// 완성여부
 	
 	// 생성자
 	@Builder
